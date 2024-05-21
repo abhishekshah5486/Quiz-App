@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ebf5ff;
+    margin: 0;
+}
+
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #57a5ec;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    text-align: center;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#hud-item {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.hud-main-text {
+    text-align: center;
+    font-size: 2em;
+}
+
+#progressBar {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+#progressBarFull {
+    height: 100%;
+    width: 0;
+    background-color: #4caf50;
+}
+.choices {
+    display: flex;
+    flex-direction: column;
+}
+
+.choice-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.2s;
+}
+
+.choice-container:hover {
+    box-shadow: 0px 0px 10px 0.5px #80b5e7;
+}
+
+.choice-prefix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 100%;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+    margin-right: 10px;
+    background-color: #007BFF;
+}
+
+.choice-text {
+    flex: 1;
+    text-align: left;
+    font-size: 1.2em;
+    height: auto;
+    width: auto;
+    border-radius: 3px;
+    border-color: black;
+}
+
+.correct {
+    background-color: #4caf50 !important;
+    color: white;
+}
+
+.incorrect {
+    background-color: #f44336 !important;
+    color: white;
+}
+
